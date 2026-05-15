@@ -473,6 +473,9 @@ body {
   object-position: center top;
   display: block;
   filter: sepia(30%) contrast(1.05);
+  image-orientation: from-image;
+  transform: rotate(90deg);
+  transform-origin: center center;
 }
 
 /* ── PHYSICAL PROFILE CARD ── */
