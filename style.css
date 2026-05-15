@@ -443,6 +443,8 @@ body {
 }
 
 .cover-col { display: flex; flex-direction: column; gap: 1.5rem; }
+.cover-col:not(.wide) { justify-content: stretch; }
+.cover-col:not(.wide) .physical-profile.card { flex: 1; }
 .cover-col.wide { padding-left: 2rem; }
 
 /* ── PHOTO PLACEHOLDER ── */
